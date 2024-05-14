@@ -1,8 +1,8 @@
 import { FC, useEffect, useRef, useState } from 'react';
 import './styles.scss';
 import classNames from 'classnames';
-import { DropDownButton } from './DropDownButton';
-import { DropDownItem } from './DropDownItem';
+import { DropDownButton } from '@components/DropDown/DropDownButton';
+import { DropDownItem } from '@components/DropDown/DropDownItem';
 
 interface Props {
   variables: string[];
