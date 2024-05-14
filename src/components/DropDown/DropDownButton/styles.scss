@@ -1,0 +1,17 @@
+.DropDownButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+
+  &_title {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  &_arrow {
+    &-focused {
+      transform: rotate(-180deg);
+    }
+  }
+}

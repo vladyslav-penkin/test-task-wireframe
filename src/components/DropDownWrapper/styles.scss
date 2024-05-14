@@ -1,0 +1,21 @@
+@import '@styles/mixins.scss';
+
+.DropDownWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+
+  
+  @include onTablet {
+    flex-basis: 144px;
+  }
+
+  &_title {
+    max-width: max-content;
+    color: var(--secondary-color);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-bottom: 4px;
+  }
+}

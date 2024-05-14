@@ -1,0 +1,11 @@
+@import '@styles/normalize.scss';
+@import '@styles/mixins.scss';
+
+.App {
+  &_main {
+    padding: 40px 0 0 0;
+    @include onTablet {
+      padding: 54px 0 0 0;
+    }
+  }
+}

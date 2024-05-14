@@ -1,0 +1,27 @@
+.UserPage {
+  &_name {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--white-color);
+    margin: 40px 0 0 0;
+  }
+
+  &_username {
+    font-size: 1.4rem;
+  }
+
+  &_email {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+
+  &_emailIcon {
+    width: 24px;
+    height: 24px;
+  }
+
+  &_posts {
+    margin: 40px 0 0 0;
+  }
+}

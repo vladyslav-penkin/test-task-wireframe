@@ -1,0 +1,18 @@
+@import '@styles/mixins.scss';
+
+.Banner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  animation: bubbing .7s;
+
+  &_icon {
+    width: 10rem;
+    margin: 0 0 40px 0;
+    @include onTablet {
+      width: 12rem;
+    }
+  }
+}

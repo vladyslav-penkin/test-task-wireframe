@@ -1,0 +1,25 @@
+.NavbarLink {
+  position: relative;
+  padding: 20px 0;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 800;
+  letter-spacing: .2px;
+
+  &:hover {
+    color: var(--primary-color);
+  }
+
+  &-active {
+    color: var(--primary-color);
+  }
+
+  &_underline {
+    position: absolute;
+    border-radius: 10px;
+    min-height: 3px;
+    width: 100%;
+    bottom: 0;
+    background-color: var(--hover-color);
+  }
+}

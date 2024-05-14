@@ -1,0 +1,13 @@
+.DropDownItem {
+  display: flex;
+  align-items: center;
+  color: var(--secondary-color);
+  padding-left: 12px;
+  font-size: 1.4rem;
+  min-height: 40px;
+
+  &:hover {
+    background-color: var(--surface2-color);
+    cursor: pointer;
+  }
+}

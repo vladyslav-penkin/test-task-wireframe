@@ -1,0 +1,22 @@
+@import '@styles/mixins.scss';
+
+.Navbar {
+  position: relative;
+  display: flex;
+
+  &_list {
+    display: flex;
+    margin: 0;
+    gap: 32px;
+    list-style: none;
+    @include onLaptop {
+      gap: 64px;
+    }
+  }
+
+  &_item {
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.2s ease;
+  }
+}

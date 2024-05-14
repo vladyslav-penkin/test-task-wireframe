@@ -1,0 +1,25 @@
+@import '../../styles/mixins.scss';
+
+.BackToButton {
+  margin: 0 0 16px;
+  &_button {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    max-width: max-content;
+    color: var(--secondary-color);
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 0.3s ease;
+    
+    &:hover {
+      color: var(--white-color);
+    }
+  }
+
+  &_image {
+    max-width: 16px;
+    max-height: 16px;
+  }
+}

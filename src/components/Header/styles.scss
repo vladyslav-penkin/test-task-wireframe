@@ -1,0 +1,26 @@
+@import '@styles/mixins.scss';
+
+.Header {
+  background-color: var(--bg-color);
+  border-bottom: 0.1px solid var(--elements-color);
+  &_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+
+    @include onTablet {
+      padding: 0 36px;
+    }
+
+    @include onDesktop {
+      padding: 0 48px;
+    }
+  }
+
+  &_popstate {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

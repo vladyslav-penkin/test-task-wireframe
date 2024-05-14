@@ -1,0 +1,23 @@
+.BasicButton  {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--btn-color);
+  background-color: var(--accent-color);
+  min-height: 3rem;
+  transition: opacity .3s ease;
+  max-width: 200px;
+  border-radius: 2px;
+  cursor: pointer;
+
+  &:active {
+    opacity: .8;
+  }
+
+  &-disabled {
+    opacity: .5;
+    pointer-events: none;
+  }
+}
