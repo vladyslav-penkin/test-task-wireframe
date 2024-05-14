@@ -17,6 +17,6 @@ export default defineConfig({
       '@contexts': path.resolve(__dirname, './src/contexts'),
     },
   },
-  base: 'https://vladyslav-penkin.github.io/test-task-wireframe/#/',
+  base: 'https://test-task-wireframe.onrender.com',
   plugins: [react()],
 });
