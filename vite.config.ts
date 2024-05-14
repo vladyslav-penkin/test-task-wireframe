@@ -17,6 +17,6 @@ export default defineConfig({
       '@contexts': path.resolve(__dirname, './src/contexts'),
     },
   },
-  base: 'http://localhost:5173/',
+  base: 'https://vladyslav-penkin.github.io/test-task-wireframe/#/',
   plugins: [react()],
 });
